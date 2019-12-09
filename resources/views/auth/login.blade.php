@@ -12,6 +12,7 @@
                         @csrf
 
                         <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label text-md-right">ایمیل</label>
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
@@ -21,10 +22,10 @@
                                 </span>
                                 @enderror
                             </div>
-                            <label for="email" class="col-md-4 col-form-label text-md-right">ایمیل</label>
                         </div>
 
                         <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">رمز عبور</label>
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
@@ -34,30 +35,29 @@
                                 </span>
                                 @enderror
                             </div>
-                            <label for="password" class="col-md-4 col-form-label text-md-right">رمز عبور</label>
                         </div>
 
                         <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                                     <label class="form-check-label" for="remember">
                                         مرا به خاطر بسپار
                                     </label>
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    ورود
+                                </button>
                                 @if (Route::has('password.request'))
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     فراموشی رمز عبور
                                 </a>
                                 @endif
-                                <button type="submit" class="btn btn-primary">
-                                    ورود
-                                </button>
                             </div>
                         </div>
                     </form>
