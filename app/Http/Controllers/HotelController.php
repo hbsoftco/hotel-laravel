@@ -14,7 +14,8 @@ class HotelController extends Controller
      */
     public function index()
     {
-        //
+        $hotels = Hotel::all();        
+        return view('index',['hotels'=> $hotels]);
     }
 
     /**
@@ -46,7 +47,7 @@ class HotelController extends Controller
      */
     public function show(Hotel $hotel)
     {
-        //
+        
     }
 
     /**

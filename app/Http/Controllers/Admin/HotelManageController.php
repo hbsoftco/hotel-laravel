@@ -16,7 +16,8 @@ class HotelManageController extends Controller
 
     public function hotelList()
     {
-        return view('admin.list-hotel');
+        $hotels = Hotel::all();
+        return view('admin.list-hotel',['hotels'=> $hotels]);
     }
 
     /**
@@ -54,8 +55,6 @@ class HotelManageController extends Controller
                 ->with('success', 'اطلاعات شما با موفقیت ثبت شد!')
                 ->with('hotel', $hotel);
         }
-
-
 
         // //////////////////////////////
 

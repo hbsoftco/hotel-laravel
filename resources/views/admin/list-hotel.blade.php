@@ -19,7 +19,7 @@
                             </div>
                         </div>
                         <div class="col-md-9">
-                            <table class="table table-sm text-center">
+                            <table class="table table-sm text-center table-hover table-striped">
                                 <thead>
                                     <tr>
                                         <th scope="col">نام هتل</th>
@@ -31,54 +31,16 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    @foreach($hotels as $hotel)
                                     <tr>
-                                        <td>هتل الماس ۲ مشهد</td>
-                                        <td>۱۰۰</td>
-                                        <td>۵ ستاره</td>
-                                        <td>۳ طبقه</td>
-                                        <td>۳۲۰</td>
+                                        <td>{{$hotel->name}}</td>
+                                        <td>{{$hotel->room_count}}</td>
+                                        <td>{{$hotel->star}}</td>
+                                        <td>{{$hotel->number_of_floors}}</td>
+                                        <td>{{$hotel->number_of_beds}}</td>
                                         <td>ثبت اتاق</td>
                                     </tr>
-                                    <tr>
-                                        <td>هتل درویشی مشهد</td>
-                                        <td>۴۵۹</td>
-                                        <td>۳ ستاره</td>
-                                        <td>۱۰ طبقه</td>
-                                        <td>۳۲۰</td>
-                                        <td>ثبت اتاق</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                        <td>ثبت اتاق</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                        <td>ثبت اتاق</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                        <td>ثبت اتاق</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                        <td>ثبت اتاق</td>
-                                    </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
 
