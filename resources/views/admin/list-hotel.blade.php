@@ -38,7 +38,11 @@
                                         <td>{{$hotel->star}}</td>
                                         <td>{{$hotel->number_of_floors}}</td>
                                         <td>{{$hotel->number_of_beds}}</td>
-                                        <td>ثبت اتاق</td>
+                                        <td>
+                                        <a href={{"/admin/hotel/room/".$hotel->id}}>
+                                                <small>ثبت اتاق</small>
+                                            </a>
+                                        </td>
                                     </tr>
                                     @endforeach
                                 </tbody>
