@@ -61,47 +61,11 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent2">
                                 <ul class="nav navbar-nav sf-menu clearfix">
-                                    <li class="nav-item sub-menu sub-menu-2">
-                                        <a href="#" class="active nav-link">
-                                            <i class="fa fa-angle-down" aria-hidden="true"></i>صفحه اصلی</a>
-                                        <div class="sf-mega">
-                                            <ul>
-                                                <li><a href="index-1.html">هتل زمستانی</a></li>
-                                                <li><a href="index-2.html">هتل تابستانی</a></li>
-                                                <li><a href="delvatore-fixed/index-1.html">سبک منو ثابت</a></li>
-                                                <li><a href="index-1.html">سبک منو پیمایش</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item"><a href="about.html" class="nav-link">درباره ی ما</a></li>
+                                    <li class="nav-item"><a href="about.html" class="nav-link">صفحه اصلی</a></li>
+                                    <li class="nav-item"><a href="contacts.html" class="nav-link">هتل ها</a></li>
                                     <li class="nav-item"><a href="rooms.html" class="nav-link">اتاق های ما</a></li>
-                                    <li class="nav-item sub-menu sub-menu-2">
-                                        <a href="#" class="nav-link">
-                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                            صفحه ها
-                                        </a>
-                                        <div class="sf-mega">
-                                            <ul>
-                                                <li><a href="about.html">درباره ی ما</a></li>
-                                                <li><a href="rooms.html">اتاق ها</a></li>
-                                                <li><a href="reservation.html">رزرواسیون</a></li>
-                                                <li><a href="details.html">جزئیات اتاق ها</a></li>
-                                                <li><a href="404.html">404 صفحه</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item sub-menu sub-menu-2">
-                                        <a href="blog.html" class="nav-link">
-                                            <i class="fa fa-angle-down" aria-hidden="true"></i>بلاگ</a>
-                                        <div class="sf-mega">
-                                            <ul>
-                                                <li><a href="blog.html">بلاگ</a></li>
-                                                <li><a href="post.html">پست بلاگ</a></li>
-
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item"><a href="contacts.html" class="nav-link">مخاطب</a></li>
+                                    <li class="nav-item"><a href="about.html" class="nav-link">درباره ی ما</a></li>
+                                    <li class="nav-item"><a href="contacts.html" class="nav-link">تماس با ما</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -556,7 +520,7 @@
 
         </div>
     </div>
-  
+
     <div class="bot2-wrapper">
         <div class="container">
             <div class="bot2 clearfix">
