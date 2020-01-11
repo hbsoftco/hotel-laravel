@@ -2231,7 +2231,7 @@ header {
   font-family: "IRANSans" !important;
 }
 .room .caption .txt2 {
-  font-size: 9px;
+  font-size: 13px;
   color: #999;
   padding-bottom: 8px;
 }
@@ -2243,6 +2243,7 @@ header {
 .room .caption .txt3 {
   font-size: 12px;
   color: #7e7e7e;
+  height: 55px;
   padding-bottom: 15px;
   font-family: "IRANSans" !important;
 }

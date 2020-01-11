@@ -143,68 +143,7 @@
         </div>
         <div class="booking-wrapper">
             <div class="container">
-                <div class="booking-inner clearfix">
-                    <form action="javascript:;" class="form1 clearfix">
-                        <div class="col1 c1">
-                            <div class="input1_wrapper">
-                                <label>ورود به سیستم</label>
-                                <div class="input1_inner">
-                                    <input type="text" class="form-control input datepicker" placeholder="ورود به سیستم">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col1 c2">
-                            <div class="input1_wrapper">
-                                <label>خروج از سیستم</label>
-                                <div class="input1_inner">
-                                    <input type="text" class="form-control input datepicker" placeholder="خروج از سیستم">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col2 c3">
-                            <div class="select1_wrapper">
-                                <label>بزرگسال</label>
-                                <div class="select1_inner">
-                                    <select class="select2 select" style="width: 100%">
-                                        <option value="1">1 بزرگسال</option>
-                                        <option value="2">2 بزرگسال</option>
-                                        <option value="3">3 بزرگسال</option>
-                                        <option value="4">4 بزرگسال</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col2 c4">
-                            <div class="select1_wrapper">
-                                <label>فرزند</label>
-                                <div class="select1_inner">
-                                    <select class="select2 select" style="width: 100%">
-                                        <option value="1">فرزند</option>
-                                        <option value="1">1 فرزند</option>
-                                        <option value="2">2 فرزند</option>
-                                        <option value="3">3 فرزند</option>
-                                        <option value="4">4 فرزند</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col2 c5">
-                            <div class="select1_wrapper">
-                                <label>اتاق ها</label>
-                                <div class="select1_inner">
-                                    <select class="select2 select" style="width: 100%">
-                                        <option value="1">1 اتاق</option>
-                                        <option value="2">2 اتاق</option>
-                                        <option value="3">3 اتاق</option>
-                                        <option value="4">4اتاق</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col3 c6">
-                            <button type="submit" class="btn-form1-submit">بررسی در دسترس بودن</button>
-                        </div>
-                    </form>
+                <div class="booking-inner clearfix">                    
                 </div>
             </div>
         </div>
@@ -212,137 +151,39 @@
     <div class="top-wrapper">
 
     </div>
-    <div id="about">
-        <div class="container">
-
-            <div class="title1">سرویس‌ها</div>
-
-            <div class="title2">سرویس‌هایی که ارائه می‌دهیم</div>
-
-            <div class="about-slider-wrapper clearfix">
-                <div class="about-slider-left">
-                    <figure class="about-slider-thumb">
-                        <img src="images/aboutWinter00.jpg" alt="" class="img-fluid">
-                    </figure>
-                    <div class="slider-for">
-                        <div class="slider-item">
-                            <img src="images/aboutWinter01.jpg" alt="" class="img-fluid">
-                        </div>
-                        <div class="slider-item">
-                            <img src="images/aboutWinter02.jpg" alt="" class="img-fluid">
-                        </div>
-                        <div class="slider-item">
-                            <img src="images/aboutWinter03.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="about-slider-right">
-                    <div class="slider-nav">
-                        <div class="slider-item">
-                            <div class="txt1">
-                                للللللللللللل
-                            </div>
-                            <div class="txt2">
-                                <p>
-                                    دددددددددددد
-                                </p>
-                                <p>
-                                    للللللللللللللللل
-                                </p>
-                            </div>
-                            <div class="txt3">
-                                رررررررر
-                            </div>
-                            <div class="txt4">
-                                مدیر
-                            </div>
-                            <div class="txt5">
-                                هتل
-                            </div>
-                        </div>
-                        <div class="slider-item">
-                            <div class="txt1">
-                                یییییییییییی
-                            </div>
-                            <div class="txt2">
-                                <p>
-                                    تتتتتتتتتتتتتتتتتتتتتتتتتتت
-                                </p>
-                                <p>
-                                    اااااااااااااا
-                                </p>
-                            </div>
-                            <div class="txt3">
-                                النا
-                            </div>
-                            <div class="txt4">
-                                مدیر کارکنان
-                            </div>
-                            <div class="txt5">
-                                هتل
-                            </div>
-                        </div>
-                        <div class="slider-item">
-                            <div class="txt1">
-                                ییییییییییییی
-                            </div>
-                            <div class="txt2">
-                                <p>
-                                    ناسنیسدینس
-                                </p>
-                                <p>
-                                    بسسسسسسسسسسسسسسسس
-                                </p>
-                            </div>
-                            <div class="txt3">
-                                دیوید
-                            </div>
-                            <div class="txt4">
-                                مدیر
-                            </div>
-                            <div class="txt5">
-                                هتل
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
     <div id="rooms">
         <div class="container">
 
-            <div class="title1">اتاق های ما</div>
+            <div class="title1">لیست هتل‌ها</div>
 
             <div class="title2"> بهترین اتاق‌ها با بهترین کیفیت در انتظار شماست</div>
-
             <div class="row">
+                @foreach($hotels as $hotel)
                 <div class="col-lg-4">
                     <div class="room-wrapper">
                         <div class="room-inner">
                             <div class="room">
                                 <figure>
-                                    <img src="images/room04.jpg" alt="" class="img-fluid">
+                                    <img src="{{ URL::to('/images/hotels'). '/'. $hotel->img }}" alt="" class="img-fluid">
                                     <figcaption>
-                                        <div class="txt1">هتل عالی</div>
-                                        <div class="txt2">شروع از $450.00</div>
+                                        <div class="txt1">{{$hotel->name}}</div>                           
+                                        <div class="txt2">شروع از ۴۵۰۰۰۰ تومان</div>
                                     </figcaption>
                                 </figure>
                                 <div class="caption">
-                                    <div class="txt1">اتاق بزرگ و عالی</div>
-                                    <div class="txt2">
-                                        39 ویو
+                                    <div class="txt1" dir="rtl">{{$hotel->room_count}}</div>
+                                    <div class="txt2" dir="rtl">
                                         <div class="small-stars">
+                                            {{$hotel->star}}
+                                            <!-- <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i> -->
                                         </div>
                                     </div>
                                     <div class="txt3">
-                                        ققققققققققققققققققققققققق
+                                        {{$hotel->address}}
                                     </div>
                                     <div class="txt4">
                                         <a href="details.html">
@@ -350,32 +191,36 @@
                                     </div>
                                 </div>
                                 <div class="select-txt">
-                                    <a href="details.html"><span>
-                                            <i class="fa fa-angle-left" aria-hidden="true"></i>انتخاب این
-                                            اتاق</span></a>
+                                    <a href="/hotel/{{$hotel->id}}"><span>
+                                            <i class="fa fa-angle-left" aria-hidden="true"></i>جزئیات هتل</span></a>
                                 </div>
                                 <div class="room-icons">
+                                    @if($hotel->free_wifi)
                                     <div class="room-ic room-ic-wifi">
                                         <i class="fa fa-wifi" aria-hidden="true"></i>
                                         <div class="txt1">وای فای رایگان</div>
                                     </div>
+                                    @endif
+                                    @if($hotel->parking)
                                     <div class="room-ic room-ic-person">
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <div class="txt1">حداکثر<br>شخص</div>
+                                        <i class="fa fa-car" aria-hidden="true"></i>
+                                        <i class="fa fa-car" aria-hidden="true"></i>
+                                        <div class="txt1">پارکینگ دارد</div>
                                     </div>
+                                    @endif
+                                    @if($hotel->pool)
                                     <div class="room-ic room-ic-breakfast">
-                                        <i class="fa fa-coffee" aria-hidden="true"></i>
-                                        <div class="txt1">صبحانه<br>شامل</div>
+                                        <i class="fa fa-bath" aria-hidden="true"></i>
+                                        <div class="txt1">استخر دارد</div>
                                     </div>
-                                    <div class="room-ic room-ic-left">
-                                        <div class="txt0">4</div>
-                                        <div class="txt1">اتاق های باقی مانده</div>
+                                    @endif
+                                    @if($hotel->restaurant)
+                                    <div class="room-ic room-ic-breakfast">
+                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                        <div class="txt1">رستوران دارد</div>
                                     </div>
-                                    <div class="room-ic room-ic-refund">
-                                        <i class="fa fa-tags" aria-hidden="true"></i>
-                                        <div class="txt1">پول برگشت داده نمیشود</div>
-                                    </div>
+                                    @endif                                  
+
                                     <div class="room-price">
                                         <div class="txt1">$<span>450</span></div>
                                         <div class="txt2">درشب</div>
@@ -385,139 +230,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="room-wrapper">
-                        <div class="room-inner">
-                            <div class="room">
-                                <figure>
-                                    <img src="images/room05.jpg" alt="" class="img-fluid">
-                                    <figcaption>
-                                        <div class="txt1">هتل</div>
-                                        <div class="txt2">شروع از $315.00</div>
-                                    </figcaption>
-                                </figure>
-                                <div class="caption">
-                                    <div class="txt1">اتاق بزرگ</div>
-                                    <div class="txt2">
-                                        39 ویو
-                                        <div class="small-stars">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                    </div>
-                                    <div class="txt3">
-                                        صصصصصصصصصصصصصصصصصصصصص
-                                    </div>
-                                    <div class="txt4">
-                                        <a href="details.html">
-                                            <i class="fa fa-caret-left" aria-hidden="true"></i>دیدن جزئیات</a>
-                                    </div>
-                                </div>
-                                <div class="select-txt">
-                                    <a href="details.html"><span>
-                                            <i class="fa fa-angle-left" aria-hidden="true"></i>انتخاب این
-                                            اتاق</span></a>
-                                </div>
-                                <div class="room-icons">
-                                    <div class="room-ic room-ic-wifi">
-                                        <i class="fa fa-wifi" aria-hidden="true"></i>
-                                        <div class="txt1">وای فای رایگان</div>
-                                    </div>
-                                    <div class="room-ic room-ic-person">
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <div class="txt1">حداکثر<br>شخص</div>
-                                    </div>
-                                    <div class="room-ic room-ic-breakfast">
-                                        <i class="fa fa-coffee" aria-hidden="true"></i>
-                                        <div class="txt1">صبحانه<br>شامل</div>
-                                    </div>
-                                    <div class="room-ic room-ic-left">
-                                        <div class="txt0">4</div>
-                                        <div class="txt1">اتاق های باقی مانده</div>
-                                    </div>
-                                    <div class="room-price">
-                                        <div class="txt1">$<span>315</span></div>
-                                        <div class="txt2">درشب</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="room-wrapper">
-                        <div class="room-inner">
-                            <div class="room">
-                                <figure>
-                                    <img src="images/room06.jpg" alt="" class="img-fluid">
-                                    <figcaption>
-                                        <div class="txt1">هتل معمولی</div>
-                                        <div class="txt2">شروع از $115.00</div>
-                                    </figcaption>
-                                </figure>
-                                <div class="caption">
-                                    <div class="txt1">اتاق معمولی</div>
-                                    <div class="txt2">
-                                        87 ویو
-                                        <div class="small-stars">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                    </div>
-                                    <div class="txt3">
-                                        رررررررررررررر
-                                    </div>
-                                    <div class="txt4">
-                                        <a href="details.html">
-                                            <i class="fa fa-caret-left" aria-hidden="true"></i>دیدن جزئیات</a>
-                                    </div>
-                                </div>
-                                <div class="select-txt">
-                                    <a href="details.html"><span>
-                                            <i class="fa fa-angle-left" aria-hidden="true"></i>انتخاب این
-                                            اتاق</span></a>
-                                </div>
-                                <div class="room-icons">
-                                    <div class="room-ic room-ic-wifi">
-                                        <i class="fa fa-wifi" aria-hidden="true"></i>
-                                        <div class="txt1">وای فای رایگان</div>
-                                    </div>
-                                    <div class="room-ic room-ic-person">
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <div class="txt1">حداکثر<br>شخص</div>
-                                    </div>
-                                    <div class="room-ic room-ic-refund">
-                                        <i class="fa fa-tags" aria-hidden="true"></i>
-                                        <div class="txt1">پول برگشت داده نمیشود</div>
-                                    </div>
-                                    <div class="room-ic room-ic-left">
-                                        <div class="txt0">4</div>
-                                        <div class="txt1">اتاق های باقی مانده</div>
-                                    </div>
-                                    <div class="room-ic room-ic-discount">
-                                        <div class="txt0">0<span>%</span></div>
-                                        <div class="txt1">تخفیف</div>
-                                    </div>
-                                    <div class="room-price">
-                                        <div class="txt1">$<span>115</span></div>
-                                        <div class="txt2">در شب</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
-
-
         </div>
     </div>
 
