@@ -15,7 +15,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@show')->name('home');
 Route::get('/', 'HotelController@index');
-Route::get('/hotel/{id}', 'RoomController@show');
+Route::get('/hotel/{hotel}', 'HotelController@show');
 
 Route::group(['middleware' => ['web']], function () {
 });
