@@ -409,18 +409,24 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="details2-info">
-                                <div>
-                                    <a href="#" class="details2-link">
-                                        <div class="txt1">
-                                            <span>قیمت</span>
-                                            <span>{{$hotel->rooms[0]->price}} </span>
-                                            <span> تومان </span>
-                                        </div>
-                                        <div class="txt2">رزرو این اتاق</div>
-                                    </a>
+                            <form action="/hotel/reserve" method="POST">
+                                @csrf
+                                <input type="hidden" value="{{$hotel->rooms[0]->price}}" name="price">
+                                <input type="hidden" value="{{$hotel->id}}" name="hotel_id">
+                                <input type="hidden" value="{{$hotel->rooms[0]->id}}" name="room_id">
+                                <div class="details2-info">
+                                    <div>
+                                        <button href="#" class="details2-link" type="submit">
+                                            <div class="txt1">
+                                                <span>قیمت</span>
+                                                <span>{{$hotel->rooms[0]->price}} </span>
+                                                <span> تومان </span>
+                                            </div>
+                                            <div class="txt2">رزرو این اتاق</div>
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>

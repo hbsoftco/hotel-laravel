@@ -1592,6 +1592,7 @@ header {
 }
 
 .details2-link {
+  border:none;
   display: inline-block;
   position: relative;
   text-align: center;
