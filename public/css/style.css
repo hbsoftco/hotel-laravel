@@ -1600,9 +1600,14 @@ header {
   line-height: 70px;
   border-radius: 5px;
   text-transform: uppercase;
-  padding: 0 50px;
+  padding: 0 18px;
   text-decoration: none;
   transition: all 0.3s ease-out;
+  direction: rtl;
+}
+
+.details2-link span {
+  letter-spacing: normal !important;
 }
 .details2-link:hover {
   background: #fab000;
@@ -1628,8 +1633,7 @@ header {
   opacity: 0;
 }
 .details2-link .txt1 span {
-  font-size: 12px;
-  letter-spacing: 2px;
+  font-size: 14px;  
   display: inline-block;
   vertical-align: middle;
 }
@@ -1640,8 +1644,7 @@ header {
   width: 100%;
   opacity: 0;
   font-size: 16px;
-  text-decoration: underline;
-  letter-spacing: 1px;
+  text-decoration: underline;  
   transition: all 0.3s ease-out;
 }
 .details2-link:hover .txt2 {

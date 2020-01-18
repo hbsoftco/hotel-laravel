@@ -203,22 +203,22 @@
                         <div class="col-md-4">
                             <div class="our-rooms-icons">
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic14.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic14.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">پارکینگ</div>
                                     <div class="our-rooms-icon-txt2">شامل</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic12.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic12.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">صبحانه</div>
                                     <div class="our-rooms-icon-txt2">شامل</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic13.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic13.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">انتقال از فرودگاه</div>
                                     <div class="our-rooms-icon-txt2">شامل</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic11.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic11.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">وای فای رایگان در اطراف هتل</div>
                                     <div class="our-rooms-icon-txt2">شامل </div>
                                 </div>
@@ -227,32 +227,36 @@
                         <div class="col-md-4">
                             <div class="our-rooms-icons">
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic15.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic15.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">امنیت</div>
                                     <div class="our-rooms-icon-txt2">شامل</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic17.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic17.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">رستوران</div>
                                     <div class="our-rooms-icon-txt2">در دسترس نیست</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic18.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic18.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">تهویه هوا</div>
                                     <div class="our-rooms-icon-txt2">در دسترس</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="images/ic16.png" alt="" class="img-fluid"></figure>
+                                    <figure><img src="/images/ic16.png" alt="" class="img-fluid"></figure>
                                     <div class="our-rooms-icon-txt1">عالی ترین کازینو هتل</div>
                                     <div class="our-rooms-icon-txt2">100$ شامل چیپس رایگان</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="details2-info">                                
+                            <div class="details2-info">
                                 <div>
                                     <a href="#" class="details2-link">
-                                        <div class="txt1">$750.00 <span>قیمت</span></div>
+                                        <div class="txt1">
+                                            <span>قیمت</span>
+                                            <span>{{$hotel->rooms[0]->price}} </span>
+                                            <span> تومان </span>
+                                        </div>
                                         <div class="txt2">رزرو این اتاق</div>
                                     </a>
                                 </div>

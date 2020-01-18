@@ -22,4 +22,9 @@ class Hotel extends Model
         'free_wifi',
         'pool',
     ];
+
+    public function rooms()
+    {
+        return $this->hasMany(Room::class);
+    }
 }

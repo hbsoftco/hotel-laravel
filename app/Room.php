@@ -31,4 +31,10 @@ class Room extends Model
         'dampayi',
         'wc_faranfi',
     ];
+
+
+    public function hotel()
+    {
+        return $this->belongsTo('App\Hotel');
+    }
 }

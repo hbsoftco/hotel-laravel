@@ -46,7 +46,8 @@ class HotelController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show(Hotel $hotel)
-    {
+    {        
+        $hotel['rooms'] = $hotel->rooms;        
         return view('details', ['hotel' => $hotel]);
     }
 
