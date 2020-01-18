@@ -199,52 +199,212 @@
                 </div>
 
                 <div class="details2-wrapper">
-                    <div class="row">
+                    <div class="row" dir="rtl">
                         <div class="col-md-4">
                             <div class="our-rooms-icons">
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic14.png" alt="" class="img-fluid"></figure>
-                                    <div class="our-rooms-icon-txt1">پارکینگ</div>
-                                    <div class="our-rooms-icon-txt2">شامل</div>
+                                    <figure>
+                                        @if($hotel->rooms[0]->mize_tahrir)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">میز تحریر</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic12.png" alt="" class="img-fluid"></figure>
+                                    <figure>
+                                        @if($hotel->rooms[0]->abajur)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">آباژور</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->chayisaz)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">چای ساز</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->ab_reyegan)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">آب رایگان</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->rakht_aviz)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">رخت آویز</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->room_service)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">روم سرویس</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->sobhane)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
                                     <div class="our-rooms-icon-txt1">صبحانه</div>
-                                    <div class="our-rooms-icon-txt2">شامل</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic13.png" alt="" class="img-fluid"></figure>
-                                    <div class="our-rooms-icon-txt1">انتقال از فرودگاه</div>
-                                    <div class="our-rooms-icon-txt2">شامل</div>
+                                    <figure>
+                                        @if($hotel->rooms[0]->yakhchal)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">یخچال</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic11.png" alt="" class="img-fluid"></figure>
-                                    <div class="our-rooms-icon-txt1">وای فای رایگان در اطراف هتل</div>
-                                    <div class="our-rooms-icon-txt2">شامل </div>
+                                    <figure>
+                                        @if($hotel->rooms[0]->mobleman)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">مبلمان</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->komod_lebas)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">کمد لباس</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="our-rooms-icons">
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic15.png" alt="" class="img-fluid"></figure>
-                                    <div class="our-rooms-icon-txt1">امنیت</div>
-                                    <div class="our-rooms-icon-txt2">شامل</div>
+                                    <figure>
+                                        @if($hotel->rooms[0]->telefon)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">تلفن</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic17.png" alt="" class="img-fluid"></figure>
-                                    <div class="our-rooms-icon-txt1">رستوران</div>
-                                    <div class="our-rooms-icon-txt2">در دسترس نیست</div>
+                                    <figure>
+                                        @if($hotel->rooms[0]->tv)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">تلویزیون</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic18.png" alt="" class="img-fluid"></figure>
-                                    <div class="our-rooms-icon-txt1">تهویه هوا</div>
-                                    <div class="our-rooms-icon-txt2">در دسترس</div>
+                                    <figure>
+                                        @if($hotel->rooms[0]->sandoq_amanat)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">صندوق امانات</div>
                                 </div>
                                 <div class="our-rooms-icon">
-                                    <figure><img src="/images/ic16.png" alt="" class="img-fluid"></figure>
-                                    <div class="our-rooms-icon-txt1">عالی ترین کازینو هتل</div>
-                                    <div class="our-rooms-icon-txt2">100$ شامل چیپس رایگان</div>
+                                    <figure>
+                                        @if($hotel->rooms[0]->system_elam_hariq)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">سیستم اعلام حریق</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->system_tahvie)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">سیستم تهویه</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->wifi)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">وای فای</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->hamam)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">حمام</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->lavazem_behdashti)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">لوازم بهداشتی</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->dampayi)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">دمپایی</div>
+                                </div>
+                                <div class="our-rooms-icon">
+                                    <figure>
+                                        @if($hotel->rooms[0]->wc_faranfi)
+                                        <span class="darad">دارد</span>
+                                        @else
+                                        <span class="nadarad">ندارد</span>
+                                        @endif
+                                    </figure>
+                                    <div class="our-rooms-icon-txt1">توالت فرنگی</div>
                                 </div>
                             </div>
                         </div>

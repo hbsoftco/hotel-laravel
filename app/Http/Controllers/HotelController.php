@@ -47,7 +47,8 @@ class HotelController extends Controller
      */
     public function show(Hotel $hotel)
     {        
-        $hotel['rooms'] = $hotel->rooms;        
+        $hotel['rooms'] = $hotel->rooms;
+        // return $hotel;
         return view('details', ['hotel' => $hotel]);
     }
 

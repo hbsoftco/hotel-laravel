@@ -1573,7 +1573,7 @@ header {
 }
 
 .details2-info {
-  text-align: right;
+  text-align: left;
   padding-top: 30px;
 }
 
@@ -4068,4 +4068,19 @@ h2 a {
 
 a {
   text-decoration: none !important;
+}
+
+.nadarad{
+  background: #ff066e;
+  padding: 0 5px;
+  color: #fcfcfc;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.darad {
+  background: #098f13;
+  padding: 0 5px;
+  color: #fcfcfc;
+  font-size: 14px;
+  border-radius: 10px;
 }
