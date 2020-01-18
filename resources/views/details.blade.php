@@ -85,161 +85,95 @@
         <div id="content">
             <div class="container">
 
-                <div class="title1">هتل مدرن</div>
+                <div class="title1">{{$hotel->name}}</div>
 
-                <div class="title2">ییییییییییییییی</div>
-
-                <div class="booking2-wrapper">
-                    <div class="">
-                        <div class="booking-inner clearfix">
-                            <form action="javascript:;" class="form1 clearfix">
-                                <div class="col1 c1">
-                                    <div class="input1_wrapper">
-                                        <label>Check in</label>
-                                        <div class="input1_inner">
-                                            <input type="text" class="form-control input datepicker" placeholder="Check in">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col1 c2">
-                                    <div class="input1_wrapper">
-                                        <label>خروج از سیستم</label>
-                                        <div class="input1_inner">
-                                            <input type="text" class="form-control input datepicker" placeholder="Check out">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col2 c3">
-                                    <div class="select1_wrapper">
-                                        <label>بزرگسال</label>
-                                        <div class="select1_inner">
-                                            <select class="select2 select" style="width: 100%">
-                                                <option value="1">1 بزرگسال</option>
-                                                <option value="2">2 بزرگسال</option>
-                                                <option value="3">3 بزرگسال</option>
-                                                <option value="4">4 بزرگسال</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col2 c4">
-                                    <div class="select1_wrapper">
-                                        <label>فرزند</label>
-                                        <div class="select1_inner">
-                                            <select class="select2 select" style="width: 100%">
-                                                <option value="1">فرزند</option>
-                                                <option value="2">1 فرزند</option>
-                                                <option value="3">2 فرزند</option>
-                                                <option value="4">3 فرزند</option>
-                                                <option value="5">4 فرزند</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col2 c5">
-                                    <div class="select1_wrapper">
-                                        <label>اتاق ها</label>
-                                        <div class="select1_inner">
-                                            <select class="select2 select" style="width: 100%">
-                                                <option value="1">1اتاق</option>
-                                                <option value="2">2 اتاق</option>
-                                                <option value="3">3اتاق</option>
-                                                <option value="4">4 اتاق</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col3 c6">
-                                    <button type="submit" class="btn-form1-submit">بررسی در دسترس بودن</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                <div class="title2">{{$hotel->address}}</div>
 
                 <div class="slider2-wrapper">
                     <div class="slider-for2">
                         <div class="slider-item">
-                            <img src="images/gallery01.jpg" alt="" class="img-fluid">
+                            <img src="{{ URL::to('/images/hotels'). '/'. $hotel->img }}" alt="" class="img-fluid">
+                            <!-- <img src="/images/gallery01.jpg" alt="" class="img-fluid"> -->
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery02.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery02.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery03.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery03.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery04.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery04.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery05.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery05.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery06.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery06.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery07.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery07.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery08.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery08.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery09.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery09.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="slider-item">
-                            <img src="images/gallery10.jpg" alt="" class="img-fluid">
+                            <img src="/images/gallery10.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
 
                     <div class="slider-nav2">
+
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb01.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb01.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb02.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb02.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb03.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb03.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb04.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb04.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb05.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb05.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb06.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb06.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb07.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb07.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb08.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb08.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb09.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb09.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="slider-item">
                             <div class="slider-item-inner">
-                                <img src="images/thumb10.jpg" alt="" class="img-fluid">
+                                <img src="/images/thumb10.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -247,26 +181,15 @@
 
 
                 <div class="details-wrapper clearfix">
-                    <div class="txt1">
-                        159 ویو
-                        <div class="small-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="txt2">هتل مدرن</div>
+                    <div class="txt2">{{$hotel->name}}</div>
                     <div class="txt3">
                         <p>
-                            غغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغغ
+                            <strong>آدرس: </strong>
+                            <span>{{$hotel->address}}</span>
                         </p>
                         <p>
-                            ففففففففففففففففففففففففففففففففففففففففففف
-                        </p>
-                        <p>
-                            لللللللللللللللللللللللللللللللللللللللللللل
+                            <strong>توضیحات: </strong>
+                            <span>{{$hotel->description}}</span>
                         </p>
                     </div>
                     <div class="details-caption">
@@ -326,9 +249,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="details2-info">
-                                <div class="check1">زززززز: <span>در دسترس</span></div>
-                                <div class="check1">رررررر: <span>ضروری 20%</span></div>
+                            <div class="details2-info">                                
                                 <div>
                                     <a href="#" class="details2-link">
                                         <div class="txt1">$750.00 <span>قیمت</span></div>
@@ -340,105 +261,6 @@
                     </div>
                 </div>
 
-                <div id="google_map"></div>
-
-                <div class="share-to-frends-wrapper clearfix">
-                    <div class="share-to-friends clearfix">
-                        <div class="share-to-friends-txt">اشتراک به دوستاتون:</div>
-                        <div class="share-to-friends-icons">
-                            <ul class="social4 clearfix">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="blog-tags clearfix">
-                        <div class="blog-tags-txt">Tags:</div>
-                        <div class="blog-tags-tags">
-                            <a href="#" اااااا</a>, <a href="#">لللللل</a>, <a href="#">صندلی</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="comment-block2 clearfix">
-                    <figure>
-                        <img src="images/author1.jpg" alt="" class="img-responsive">
-                    </figure>
-                    <div class="caption">
-                        <div class="txt1">ثثثثثثثثث <a href="#">مممممممممم</a></div>
-                        <div class="txt2">
-                            ذذذذذذذذذذذذذذذذذذذذذذذذذذذذذذذذذذ
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="title3">اضافه ویو</div>
-
-                <div id="note"></div>
-                <div id="fields">
-                    <form id="ajax-contact-form" class="form-horizontal clearfix" action="javascript:;">
-                        <div class="row">
-                            <div class="col-md-6">
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="inputName2">نام <span>*</span></label>
-                                            <input type="text" class="form-control" id="inputName2" name="name" value="" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="inputEmail">ایمیل <span>*</span></label>
-                                            <input type="text" class="form-control" id="inputEmail" name="email" value="" placeholder="">
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <div class="col-md-6">
-
-                                <div class="form-group">
-                                    <label for="inputMessage2">توضیحات <span>*</span></label>
-                                    <textarea class="form-control" rows="5" id="inputMessage2" name="content" placeholder=""></textarea>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <button type="submit" class="btn-default btn-cf-submit">ارسال پیغام شما</button>
-                    </form>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="bot1-wrapper">
-            <div class="container">
-                <div class="bot1 clearfix">
-                    <div class="logo2_wrapper">
-                        <a href="index-2.html" class="logo2">
-                            <img src="images/logo2.png" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="social2-wrapper">
-                        <ul class="social2">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                    <p>
-                        <i> یییییییییییییییییییییییییییییییییییییییییی.</i>
-                    </p>
-                </div>
             </div>
         </div>
         <div class="bot2-wrapper">

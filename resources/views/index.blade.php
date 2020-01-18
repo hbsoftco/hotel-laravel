@@ -111,28 +111,28 @@
                     <div class="slide-buttons clearfix">
                         <div class="slide-button">
                             <a href="#">
-                                <div class="ic"><img src="images/slide-ic1.png" alt="" class="img-fluid"></div>
+                                <div class="ic"><img src="/images/slide-ic1.png" alt="" class="img-fluid"></div>
                                 <div class="hr"></div>
                                 <div class="txt1">هتل</div>
                             </a>
                         </div>
                         <div class="slide-button">
                             <a href="#">
-                                <div class="ic"><img src="images/slide-ic2.png" alt="" class="img-fluid"></div>
+                                <div class="ic"><img src="/images/slide-ic2.png" alt="" class="img-fluid"></div>
                                 <div class="hr"></div>
                                 <div class="txt1">صبحانه</div>
                             </a>
                         </div>
                         <div class="slide-button">
                             <a href="#">
-                                <div class="ic"><img src="images/slide-ic3.png" alt="" class="img-fluid"></div>
+                                <div class="ic"><img src="/images/slide-ic3.png" alt="" class="img-fluid"></div>
                                 <div class="hr"></div>
                                 <div class="txt1">باشگاه تناسب اندام</div>
                             </a>
                         </div>
                         <div class="slide-button">
                             <a href="#">
-                                <div class="ic"><img src="images/slide-ic4.png" alt="" class="img-fluid"></div>
+                                <div class="ic"><img src="/images/slide-ic4.png" alt="" class="img-fluid"></div>
                                 <div class="hr"></div>
                                 <div class="txt1">پشتیبانی 24 ساعته</div>
                             </a>
