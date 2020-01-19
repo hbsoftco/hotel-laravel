@@ -55,22 +55,7 @@ class HotelManageController extends Controller
                 ->with('success', 'اطلاعات شما با موفقیت ثبت شد!')
                 ->with('hotel', $hotel);
         }
-
-        // //////////////////////////////
-
-        // if ($validator->fails()) {
-        //     return $this->sendError('فیلدها را درست پر کنید!', $validator->errors(), 200);
-        // } else {
-        //     $user = auth('api')->user();
-        //     if ($user) {
-        //         $input = $request->all();
-        //         $input['user_id'] = $user['id'];
-        //         $input['status'] = 1;
-
-        //         $hotel = Hotel::create($input);
-        //         return $this->sendResponse($hotel, '');
-        //     }
-        // }
+ 
     }
 
     /**

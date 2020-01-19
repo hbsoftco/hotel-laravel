@@ -5,7 +5,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@show')->name('home');
 Route::get('/', 'HotelController@index');
 Route::get('/hotel/{hotel}', 'HotelController@show');
-Route::post('/hotel/reserve', 'HotelController@reserve');
+Route::post('/hotel/reserve', 'BookController@store');
 
 Route::group(['middleware' => ['web']], function () {
 });

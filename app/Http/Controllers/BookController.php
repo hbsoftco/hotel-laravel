@@ -35,7 +35,12 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $input = $request->all();
+        $book = Book::create($input);
+
+        return back()
+            ->with('success', 'رزرو شما با موفقیت ثبت شد!')
+            ->with('book', $book);
     }
 
     /**

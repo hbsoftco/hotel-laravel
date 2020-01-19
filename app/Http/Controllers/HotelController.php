@@ -37,13 +37,7 @@ class HotelController extends Controller
     public function store(Request $request)
     {
         //
-    }
-
-    public function reserve(Request $request)
-    {
-        return $request->all();
-    }
-    
+    }    
 
     /**
      * Display the specified resource.
