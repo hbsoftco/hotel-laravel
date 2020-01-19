@@ -11,10 +11,10 @@
                         <div class="col-md-3">
                             <div class="list-group">
                                 <a href="/admin/hotel/create" class="list-group-item list-group-item-action">
-                                    <span>ثبت هتل‌ جدید</span>
+                                    <span>لیست رزروها</span>
                                 </a>
-                                <a href="/admin/hotel/list" class="list-group-item list-group-item-action active">لیست هتل‌ها</a>
-                                <a href="/admin/books/manage" class="list-group-item list-group-item-action">لیست روزروها</a>
+                                <a href="/admin/hotel/list" class="list-group-item list-group-item-action">لیست هتل‌ها</a>
+                                <a href="/admin/books" class="list-group-item list-group-item-action active">لیست روزروها</a>
                                 <a href="/admin/users/manage" class="list-group-item list-group-item-action">لیست کاربران</a>
                             </div>
                         </div>
@@ -23,55 +23,20 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">نام هتل</th>
-                                        <th scope="col">اتاق‌ها</th>
                                         <th scope="col">ستاره</th>
-                                        <th scope="col">تعداد طبقه</th>
-                                        <th scope="col">تعداد تخت‌ها</th>
+                                        <th scope="col">کاربر</th>
+                                        <th scope="col">مبلغ رزرو</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    @foreach($books as $book)
                                     <tr>
-                                        <td>هتل الماس ۲ مشهد</td>
-                                        <td>۱۰۰</td>
-                                        <td>۵ ستاره</td>
-                                        <td>۳ طبقه</td>
-                                        <td>۳۲۰</td>
+                                        <td>{{$book->hotel->name}}</td>
+                                        <td>{{$book->hotel->star}}</td>
+                                        <td>{{$book->user->name}}</td>
+                                        <td>{{$book->room->price}}</td>
                                     </tr>
-                                    <tr>
-                                        <td>هتل درویشی مشهد</td>
-                                        <td>۴۵۹</td>
-                                        <td>۳ ستاره</td>
-                                        <td>۱۰ طبقه</td>
-                                        <td>۳۲۰</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                    </tr>
-                                    <tr>
-                                        <td>هتل قصر طلایی مشهد</td>
-                                        <td>۳۲۰</td>
-                                        <td>۷ ستاره</td>
-                                        <td>۵ طبقه</td>
-                                        <td>۳۲۰</td>
-                                    </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
 

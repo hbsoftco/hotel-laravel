@@ -61,11 +61,11 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent2">
                                 <ul class="nav navbar-nav sf-menu clearfix">
-                                    <li class="nav-item"><a href="about.html" class="nav-link">صفحه اصلی</a></li>
-                                    <li class="nav-item"><a href="contacts.html" class="nav-link">هتل ها</a></li>
-                                    <li class="nav-item"><a href="rooms.html" class="nav-link">اتاق های ما</a></li>
-                                    <li class="nav-item"><a href="about.html" class="nav-link">درباره ی ما</a></li>
-                                    <li class="nav-item"><a href="contacts.html" class="nav-link">تماس با ما</a></li>
+                                    <li class="nav-item"><a href="/" class="nav-link">صفحه اصلی</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">هتل ها</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">اتاق های ما</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">درباره ی ما</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">تماس با ما</a></li>
                                 </ul>
                             </div>
                         </nav>

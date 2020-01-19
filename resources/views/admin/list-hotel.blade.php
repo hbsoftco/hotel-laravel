@@ -14,7 +14,7 @@
                                     <span>ثبت هتل‌ جدید</span>
                                 </a>
                                 <a href="/admin/hotel/list" class="list-group-item list-group-item-action active">لیست هتل‌ها</a>
-                                <a href="/admin/books/manage" class="list-group-item list-group-item-action">لیست روزروها</a>
+                                <a href="/admin/books" class="list-group-item list-group-item-action">لیست روزروها</a>
                                 <a href="/admin/users/manage" class="list-group-item list-group-item-action">لیست کاربران</a>
                             </div>
                         </div>

@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Book;
+use App\Hotel;
+use App\Room;
+use App\User;
+use Auth;
 use Illuminate\Http\Request;
 
 class BookController extends Controller
@@ -14,7 +18,15 @@ class BookController extends Controller
      */
     public function index()
     {
-        //
+        $books = Book::all();
+
+        foreach ($books as $key => $book) {
+            $book['user'] = User::find($book->user_id);
+            $book['room'] = Room::find($book->room_id);
+            $book['hotel'] = Hotel::find($book->hotel_id);
+        }
+
+        return view('admin.list-books',['books'=> $books]);
     }
 
     /**
@@ -36,6 +48,10 @@ class BookController extends Controller
     public function store(Request $request)
     {
         $input = $request->all();
+
+        $user = Auth::user();
+        $input['user_id'] = $user->id;
+
         $book = Book::create($input);
 
         return back()

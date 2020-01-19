@@ -64,11 +64,11 @@
 
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="nav navbar-nav sf-menu clearfix">
-                                        <li class="nav-item"><a href="about.html" class="nav-link">صفحه اصلی</a></li>
-                                        <li class="nav-item"><a href="contacts.html" class="nav-link">هتل ها</a></li>
-                                        <li class="nav-item"><a href="rooms.html" class="nav-link">اتاق های ما</a></li>
-                                        <li class="nav-item"><a href="about.html" class="nav-link">درباره ی ما</a></li>
-                                        <li class="nav-item"><a href="contacts.html" class="nav-link">تماس با ما</a></li>
+                                        <li class="nav-item"><a href="/" class="nav-link">صفحه اصلی</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">هتل ها</a></li>
+                                        <li class="nav-item"><a href="" class="nav-link">اتاق های ما</a></li>
+                                        <li class="nav-item"><a href="" class="nav-link">درباره ی ما</a></li>
+                                        <li class="nav-item"><a href="" class="nav-link">تماس با ما</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -84,6 +84,15 @@
         </div>
         <div id="content">
             <div class="container">
+                <div dir="rtl">
+                    @if ($message = Session::get('success'))
+                    <div class="alert alert-success alert-block">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <strong>{{ $message }}</strong>
+                    </div>
+                    <hr>
+                    @endif
+                </div>
 
                 <div class="title1">{{$hotel->name}}</div>
 
